@@ -1,12 +1,17 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
+import Head from 'next/head'
 import { useEffect } from 'react'
-import Header from '../components/header'
+import Header from '../components/home/header'
 
 const Home: NextPage = () => {
   return (
-    <div className='font-sans'>
+    <div>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="Personal website for Shaya Selincourt, a software engineer based in Vancouver, BC." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Header />
     </div>
   )
