@@ -1,6 +1,8 @@
+import { motion } from "framer-motion"
+
 const Navbar = () => {
     return <>
-        navbar
+        <motion.div animate={{ x: 100 }}>navbar</motion.div>
     </>
 }
 
