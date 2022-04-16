@@ -4,4 +4,12 @@ This is a full stack personal site that I built to showcase my skills and projec
 
 It contains an informational page, a blog, and my portfolio.
 
-It is written in TypeScript on top of [Next.js](https://nextjs.org/) with [Tailwind](https://tailwindcss.com/) for styling. MongoDB is used for the blog database, and Framer Motion is used for the animations.
+## Tech stack
+
+- Languages: HTML, TypeScript
+- Web framework: Next.js
+- Database: MongoDB
+- Styling: TailwindCSS
+- Animation: Framer Motion
+- 3D: React Three Fiber
+- Hosting: Vercel
